@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /home/annaflagg/annaflagg.com/drake-july27/.htpasswd
+require valid-user

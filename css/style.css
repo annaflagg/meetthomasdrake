@@ -1,0 +1,597 @@
+.desktoponly {
+	display:block;
+}
+.mobileonly {
+	display:none;
+}
+@media only screen and (max-device-width: 480px) {
+	.desktoponly {
+		display:none;
+	}
+	.mobileonly {
+		display:block;
+	}
+}
+
+html, body {
+	height: 100%;
+	/*color: #1B1B1B;*/
+	background-color:#010005;
+	/* FOR BOUNCE SCROLL*/
+	/*overflow: hidden;*/
+}
+
+#facebook, #twitter {
+	fill: #58595A;
+}
+
+#facebook:hover, #twitter:hover {
+	fill:#fac800;
+	pointer:cursor;
+
+}
+#twitter {
+	-ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Chrome, Safari, Opera */
+    transform: scale(1.1);
+}
+
+#facebook {
+	-ms-transform: scale(.9); /* IE 9 */
+    -webkit-transform: scale(.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9);
+}
+
+#endtwitter, #endfacebook {
+	fill: #B5B5B5;
+}
+
+#endtwitter, #endfacebook {
+
+}
+/*
+#playbutton {
+	-ms-transform: scale(.2);
+    -webkit-transform: scale(.2); 
+    transform: scale(.2);
+}*/
+
+
+.lefttopnavfacebook {
+	padding-top:3px;
+}
+
+.allcaps {
+	text-transform: capitalize;
+}
+
+.serif {
+	font-family:Georgia;
+}
+.sansserif {
+	font-family: Open Sans, Helvetica, Montserrat, Sans Serif;
+}
+
+.fixed {
+	position:fixed;
+}
+
+.center {	
+    margin: 0 auto;
+}
+
+.darkbackground {
+	background-color:#010005;
+}
+
+/*
+.titleyellow {
+	color:#F8C833;
+}
+
+.titlegrey {
+	color:#A3A28F;
+}*/
+.yellow {
+	color: #fac800;
+}
+
+.absoluteposition {
+	position: absolute;
+}
+.relativeposition {
+	position: relative;
+}
+
+.centeralign {
+	text-align:center;
+}
+
+.onesixteenth			  { width: 6.25% }
+.threesixteenths		  { width: 18.75% }
+
+
+.nopadding {
+    padding: 0px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.mediumdarkbackground {
+	background-color: #1B1C1B;
+}
+p {
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.invisible {
+	opacity:0;
+}
+
+.visible {
+	opacity:1;
+}
+
+.nodisplay {
+	display:none;
+}
+.display {
+	display:block;
+}
+
+.textalignright {
+	text-align: right;
+}
+.textaligncenter {
+	text-align: center;
+}
+
+.noclick {
+	pointer-events:none;
+}
+
+.clickable {
+	pointer-events:all;
+	cursor: pointer;
+}
+
+.noselect {
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.notextdecoration {
+	text-decoration: none;
+}
+
+/* RESPONSIVE TYPOGRAPHY */
+.meet, .maintitle, .mainsubtitle, .chaptertitle, .interactivemessage {
+	font-size:4rem;
+	letter-spacing:.1rem;
+	margin-bottom:0px;
+
+	font-weight:700;
+}
+.aboutp {
+	/*margin-top:3px;*/
+	color: #A3A3A4;
+	font-size: 2rem;
+	margin-top:20px;
+}
+.sourcestitle {
+	color:#fac800;
+	font-size:2.3rem;
+	font-weight:700;
+}
+.sourceorg, .sourcelink {
+	font-size: 1.5rem;
+}
+
+.sourceorg {
+	font-weight:700;
+	color: #58595A;
+	letter-spacing: .05rem;
+}
+.sourcelink {
+	color: #A3A3A4;
+}
+.sourcelink:hover {
+	color:#fac800;
+}
+.sourcename {
+	color: #A3A3A4;
+}
+.meet, .mainsubtitle {
+	color: #B5B5B5;
+}
+.maintitle, .chaptertitle, .chaptertitleabout {
+	color: #fac800;
+}
+
+.chaptertitleabout {
+	margin-top:120px;
+}
+.firstaboutp {
+	margin-top:0;
+}
+
+.maintitlestuff {
+	margin-top:18%;
+}
+
+.mainsubtitle, .chaptersubtitle {
+	cursor:default;
+	font-size:1.7rem;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	font-weight:600;
+	margin-top:-5px;
+}
+
+.chaptersubtitle {
+	font-weight:700;
+	color:#58595A;
+}
+
+
+
+.byline {
+	margin-top:50px;	
+
+}
+.credit {
+	margin-top:10px;	
+}
+.bylinecaps {
+	/*letter-spacing:.1rem;*/
+	font-weight:700;
+	text-decoration:none;
+	color: #5E5F60;
+}
+.bylinecaps:hover {
+	color:#fac800;
+}
+.nohover:hover {
+	cursor:default;
+	color: #5E5F60;
+}
+
+	
+/* Timeline vis */
+.datatitle, .datadesc  {
+	font-family: Open Sans, Helvetica, Montserrat, Sans Serif;
+	font-size:1.1rem;
+	letter-spacing: .1rem;
+	font-weight: 600;
+}
+.datadesc {
+	letter-spacing:0;
+}
+
+.timelinep {
+	top:50%;
+	left:20%;
+	position:fixed;
+	color:#A3A3A4;
+	letter-spacing: .15rem;
+	font-size:1.8rem;
+	font-weight: 600;
+}
+.timelinep2 {
+	opacity: .2;
+}
+
+/* Whistleblowers vis */
+.v2axislabel, .v1titlelabel  {
+	fill:#A3A3A4;
+	font-size: 1.3rem;
+	font-family: Open Sans, Helvetica, Montserrat, Sans Serif;
+	letter-spacing: .2rem;
+	font-weight:600;
+
+}
+.v2axislabel {
+	opacity:.6;
+}
+
+.v2datalabel {
+	fill:#A3A3A4;
+	font-size: 2.1rem;
+	font-family: Open Sans, Helvetica, Montserrat, Sans Serif;
+	/*Montserrat, Open Sans, Helvetica, Sans Serif;*/
+	
+}
+.v2datalabeldesc, .v1subtitlelabel { /* Famous for releasing the Pentagon Papers */
+	fill:#A3A3A4;
+	font-size: 1.3rem;
+
+	font-family: Open Sans, Helvetica, Montserrat, Sans Serif;
+	font-weight:400;
+}
+
+.visdesc {
+	font-size:1.6rem;
+}
+
+/* Budget vis part 2 – agency budgets */
+.dotlabelname {
+	fill:#A3A3A4;
+	font-size: 1.2rem;
+	font-family: Open Sans, Helvetica, Montserrat, Sans Serif;
+	letter-spacing: .2rem;
+	font-weight:600;
+}
+.dotlabeldesc {
+	fill:#A3A3A4;
+	font-size: 1.2rem;
+	font-family: Open Sans, Helvetica, Montserrat, Sans Serif;
+	font-weight:600;
+}
+
+
+/* Vis titles – for all the visualizations */
+.interactivelabel {
+	font-size:1.2rem;
+	letter-spacing:.2rem;
+	font-weight:bold;
+	fill: #fac800;
+	color: #fac800;
+	
+}
+.vistitle {
+	font-size:2.5rem;
+	fill: #A3A3A4;
+}
+
+
+.credits {
+		bottom:50px;
+}
+/**
+.logodiv {
+	padding-left:50px;
+}**/
+/*
+.lefttopnavdiv {
+	padding-right:50px;
+}*/
+/*
+.maintitles, .credits, .chapterdiv {
+	margin-left:50px;
+}*/
+.byline, .credit {
+	color: #5E5F60;
+	font-size:1.2rem;
+}
+.topnav, .nav {
+	font-size: 1.1rem;
+}
+.menuitem p {
+	font-size: 1.3rem;
+}
+
+.defaultaxislabel {
+	text-anchor: middle;
+	font-size:1.2rem;
+
+}
+
+.lowerthird {
+	top:80%;
+	color:white;
+}
+
+
+.lowerthirdname {
+	font-size: 2.5rem;
+	font-weight:600;
+	letter-spacing:.15rem;
+	color: #A3A3A4;
+}
+
+.lowerthirddate {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	letter-spacing: .15rem;
+	margin-top:-3px;
+	color: #A3A3A4;
+	font-weight:600;
+}
+
+.tinyshare {
+	opacity:.5;
+	
+	-ms-transform: translateY(143px);
+	-webkit-transform: translateY(143px);
+	-moz-transform: translateY(143px);
+	-o-transform: translateY(143px);
+	transform: translateY(143px);
+/*	y: 143;*/
+}
+.tinyshareyoffset {
+	
+	-ms-transform: translateY(170px);
+	-webkit-transform: translateY(170px);
+	-moz-transform: translateY(170px);
+	-o-transform: translateY(170px);
+	transform: translateY(170px);
+/*	y: 170;*/
+}
+.sharetext {
+	fill:#A3A3A4;
+	opacity:.5;
+	font-size: 1.1rem;
+	font-weight: 700;
+	letter-spacing: .12rem;
+	/*transform: translate(0px, 158px)*/
+	
+	-ms-transform: translateY(158px);
+	-webkit-transform: translateY(158px);
+	-moz-transform: translateY(158px);
+	-o-transform: translateY(158px);
+	transform: translateY(158px);
+}
+.sharetextyoffset {
+	/*transform: translate(0px, 184px)*/
+	-ms-transform: translateY(184px);
+	-webkit-transform: translateY(184px);
+	-moz-transform: translateY(184px);
+	-o-transform: translateY(184px);
+	transform: translateY(184px);
+}
+
+@media (min-width: 1500px) and (min-height: 800px) {
+	.meet, .maintitle, .mainsubtitle {
+		font-size:7rem;
+	}
+
+	.chaptertitle {
+		font-size:5rem;
+	}
+
+	.mainsubtitle {
+		
+		font-size:3rem;
+	}
+	
+	 .chaptersubtitle {
+		
+		font-size:2rem;
+	}
+
+	.topnav, .nav {
+		font-size: 1.4rem;
+	}
+	.menuitem p {
+		font-size: 1.6rem;
+	}
+	/*
+	.maintitles, .credits, .chapterdiv {
+		margin-left:150px;
+	}*/
+	.byline, .credit {
+		color: #5E5F60;
+		font-size:1.4rem;
+	}
+	.credits {
+		bottom:200px;
+	}
+	/**
+	.logodiv {
+		padding-left:150px;
+	}**/
+	/*
+	.lefttopnavdiv {
+		padding-right:150px;
+	}*/
+	
+	.nav {
+		font-size: 1.4rem;
+	}
+	
+	.timelinep {
+		font-size: 2.1rem;
+	}
+	
+	/*.v4datalabel, */
+	.datatitle, .datadesc {
+		font-size:1.4rem;
+	}
+	
+	.v2axislabel, .v1titlelabel { /*OBAMA ADMINISTRATION (add .3) */
+		font-size:2rem;
+	}
+	.v2datalabel { /* Daniel Ellsberg */
+	font-size: 2.5rem;
+	}
+	.v2datalabeldesc { /* Famous for releasing the Pentagon Papers */
+		font-size: 1.4rem;
+	}
+	.v1subtitlelabel { 
+		font-size: 1.5rem;
+	}
+	
+	/* Vis titles – for all the visualizations */
+	.interactivelabel {
+		font-size:1.4rem;
+	}
+	.vistitle {
+		font-size:3rem;
+	}
+
+	.visdesc {
+		font-size:2rem;
+	}
+	.defaultaxislabel {
+		font-size:1.6rem;
+
+	}
+	.lowerthirdname {
+		font-size: 4rem;
+	}
+	.lowerthirddate {
+		font-size: 2rem;
+	}
+	
+	.chaptertitle {
+		margin-top:200px;
+	}
+	
+	
+	.aboutp {
+		font-size: 2.2rem;
+	}
+	
+	.firstaboutp {
+		margin-top:10px;
+	}
+	
+	.tinyshare {
+		opacity:.5;
+	
+		-ms-transform: translateY(165px);
+		-webkit-transform: translateY(165px);
+		-moz-transform: translateY(165px);
+		-o-transform: translateY(165px);
+		transform: translateY(165px);
+	/*	y: 143;*/
+	}
+	.tinyshareyoffset {
+	
+		-ms-transform: translateY(192px);
+		-webkit-transform: translateY(192px);
+		-moz-transform: translateY(192px);
+		-o-transform: translateY(192px);
+		transform: translateY(192px);
+
+	}
+	.sharetext {
+		font-size:1.3rem;
+		-ms-transform: translateY(180px);
+		-webkit-transform: translateY(180px);
+		-moz-transform: translateY(180px);
+		-o-transform: translateY(180px);
+		transform: translateY(180px);
+	}
+	.sharetextyoffset {
+		/*transform: translate(0px, 184px)*/
+		-ms-transform: translateY(206px);
+		-webkit-transform: translateY(206px);
+		-moz-transform: translateY(206px);
+		-o-transform: translateY(206px);
+		transform: translateY(206px);
+	}
+
+
+}
+
+
+
+
+

@@ -1,0 +1,43 @@
+.video-js {
+	width: auto !important; /* override the plugin's inline dims to let vids scale fluidly */
+	height: auto !important;
+}
+
+.video-js video {position: relative !important;}
+ /* The video should expand to force the height of the containing div.
+ One in-flow element is good. As long as everything else in the container
+ div stays `position: absolute` we're okay */
+
+
+.video-js .vjs-big-play-button {
+   /* top: 50%; /* errrr, why isn't the play button centered in the default skin? :) */
+   /* left: 50%;*/
+
+	top:150px;
+	left:220px;
+	margin:-4em 0 0 -6em; /* the old negative margin trick */
+}
+
+.mobilemeet, .mobilemaintitle, .mobilemainsubtitle {
+	font-size:2.4rem;
+	font-weight:700;
+}
+
+.mobilemeet, .mobilemainsubtitle {
+	color: #B5B5B5;
+}
+.mobilemaintitle {
+	color: #fac800;
+}
+
+.mobilemainsubtitle, .interactivemessage {
+	font-size:1.3rem;
+	font-weight:700;
+}
+.interactivemessage {
+	color:#fac800;
+}
+
+.byline, .credit {
+	font-size:1.1rem;
+}
